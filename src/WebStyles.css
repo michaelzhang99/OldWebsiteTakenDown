@@ -1,0 +1,48 @@
+.NavBar {
+  height: 100px;
+  background-color: #333333;
+  font-size: 36px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Footer {
+  height: 50px;
+  font-size: 15px;
+  background-color: #333333;
+  color: mintcream;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.MainContent {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainPlace {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.MainList {
+  margin-left: 46.5%;
+  display: grid;
+  font-size: 12px;
+}
+
+.Move {
+  margin-bottom: 50%;
+}
