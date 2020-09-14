@@ -5,11 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(to right, #1cb5e0, #000046);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.h1Contact {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  padding-top: 0.6em;
+  padding-bottom: 0.15em;
+}
+
+.pContact {
+  width: 75%;
+  padding-top: 2em;
+  margin: auto;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contactGridColor {
+  margin-left: 15%;
+  margin-top: 6%;
+  opacity: 90%;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 520px;
+
+  background: #ada996; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contactGridColor hr {
+  border-top: 5px dotted black;
+  width: 60%;
 }
 
 .NavBar {
@@ -17,11 +75,100 @@ code {
   background-color: #333333;
   font-size: 36px;
   color: whitesmoke;
-  margin-bottom: 20px;
   text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.NavBar1 {
+  background-color: #333333;
+  height: 100%;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  padding: 3em;
+  display: flex;
+  margin-right: 1.5%;
+}
+
+.bannerText {
+  width: 75%;
+  height: auto;
+  background-color: #333333;
+  border-radius: 10px;
+  opacity: 0.8;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.bannerText h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.bannerText hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.icons {
+  justify-content: space-between;
+  justify-items: center;
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.ImgSpace {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.icons i {
+  color: white;
+  font-size: 5em;
+  padding: 6px;
+  justify-items: center;
+  text-align: center;
+}
+
+.bannerText p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  align-items: center;
+  text-align: center;
+}
+
+.seperator {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.MZ {
+  padding-top: 2em;
+  padding-left: 5%;
+  font-size: 40px;
+}
+
+.position {
+  padding-left: 5%;
+  color: grey;
+  font-size: 25;
 }
 
 .Footer {
@@ -66,6 +213,7 @@ code {
   display: flex;
   font-size: 50px;
   margin-bottom: 15px;
+  color: white;
 }
 
 .Cat {
@@ -75,4 +223,156 @@ code {
   display: flex;
   font-size: 30px;
   margin: 25px;
+  color: white;
+}
+
+.Button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.WelcomeProjects {
+  height: 115vh;
+  font-size: 400px;
+  text-align: center;
+  padding-top: 25%;
+  margin-top: 10%;
+  text-decoration: cornsilk;
+  color: white;
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.REVITNYU {
+  height: 660vh;
+  background-color: black;
+}
+
+.VideoIndex {
+  margin-left: 27%;
+}
+
+.Sanjude {
+  height: 400vh;
+  background: #fdfc47; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24fe41,
+    #fdfc47
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24fe41,
+    #fdfc47
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.CADschool {
+  height: 100vh;
+  background: #ffafbd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc3a0,
+    #ffafbd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc3a0,
+    #ffafbd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.CADCARZ {
+  height: 100vh;
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f80759,
+    #bc4e9c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f80759,
+    #bc4e9c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.REACTproj {
+  height: 100vh;
+  background: #ffb347; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffcc33,
+    #ffb347
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffcc33,
+    #ffb347
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.BIKEZ {
+  height: 100vh;
+  background: #da22ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #9733ee,
+    #da22ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #9733ee,
+    #da22ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Mothersday {
+  height: 100vh;
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ProjLIST {
+  list-style: none;
+  text-align: left;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  font-size: 20px;
+  height: 30px;
+  background: transparent;
+  background: black;
+  opacity: 0.7;
+}
+
+.ProjLIST > .active {
+  border-bottom: 3px solid white;
+}
+
+.ImgResize {
+  height: 700px;
+}
+.ImgResize2 {
+  height: 1000px;
 }

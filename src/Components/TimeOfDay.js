@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Button } from "semantic-ui-react";
 
 function TimeOfDay() {
   const [date, setDate] = useState(new Date());
@@ -13,10 +14,9 @@ function TimeOfDay() {
     return () => clearInterval(interval);
   }, [pause]);
   let hours = date.getHours();
-  let minutes = date.getMinutes();
-  let seconds = date.getSeconds();
-  let milleseconds = date.getMilliseconds();
-  const day = date.getDay();
+  const minutes = date.getMinutes();
+  const seconds = date.getSeconds();
+  const milleseconds = date.getMilliseconds();
   let TimeDay;
   let AMPM;
 
@@ -32,14 +32,21 @@ function TimeOfDay() {
   if (hours > 12) {
     hours = hours - 12;
   }
-
   return (
     <div>
       <h1 className="Tiger">
-        {hours}:{minutes}:{seconds < 10 ? `0${seconds}` : seconds}.
-        {milleseconds} {AMPM}
+        {hours}:{minutes < 10 ? `0${minutes}` : minutes}:
+        {seconds < 10 ? `0${seconds}` : seconds}.
+        {milleseconds < 10
+          ? `00${milleseconds}`
+          : milleseconds < 100
+          ? `0${milleseconds}`
+          : milleseconds}{" "}
+        {AMPM}
       </h1>
-      <button onClick={() => setPause(!pause)}>pause/unpause</button>
+      <Button style={{ marginLeft: "45%" }} onClick={() => setPause(!pause)}>
+        pause/unpause
+      </Button>
       <h2 className="Cat">Good {TimeDay}!</h2>
     </div>
   );

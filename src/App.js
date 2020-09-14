@@ -1,19 +1,9 @@
 import React from "react";
-import MainContent from "./Components/MainContent";
 import NavBar from "./Components/NavBar";
-import Footer from "./Components/Footer";
-import TimeOfDay from "./Components/TimeOfDay";
-
+// import Router from "./Components/Routing";
 
 function App() {
-  return (
-    <div>
-      <NavBar />
-      <TimeOfDay />
-      <MainContent />
-      <Footer />
-    </div>
-  );
+  return <NavBar />;
 }
 
 export default App;

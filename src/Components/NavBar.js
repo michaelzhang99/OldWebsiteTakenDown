@@ -1,54 +1,44 @@
 import React, { useState } from "react";
-import { Menu } from "semantic-ui-react";
+import { Menu, Segment } from "semantic-ui-react";
+import {
+  Switch,
+  Route,
+  BrowserRouter as Router,
+  NavLink,
+} from "react-router-dom";
 import Home from "./Website components/Home";
 import Resume from "./Website components/Resume";
 import Projects from "./Website components/Projects";
-import Message from "./Website components/Message";
+import Contact from "./Website components/Contact";
 
 function NavBar() {
-  const [activeItem, setActiveItem] = useState(null);
-  const handleItemClick = (e, { name }) => setActiveItem(name);
-
-  const whichButton = () => {
-    if (activeItem == "home") return <Home />;
-    else if (activeItem == "resume") return <Resume />;
-    else if (activeItem == "projects") return <Projects />;
-    else if (activeItem == "message") return <Message />;
-  };
-
+  const [Click, setClick] = useState(false);
+  const handleClick = () => setClick(!Click);
   return (
-    <>
-      <nav>
-        <nav className="NavBar"> Home</nav>
-      </nav>
-      <div>
-        <Menu pointing secondary>
-          <Menu.Item
-            name="home"
-            active={activeItem === "home"}
-            onClick={handleItemClick}
-          />
-          <Menu.Item
-            name="resume"
-            active={activeItem === "resume"}
-            onClick={handleItemClick}
-          />
-          <Menu.Item
-            name="projects"
-            active={activeItem === "projects"}
-            onClick={handleItemClick}
-          />
+    <Router>
+      <Segment inverted>
+        <Menu inverted size="huge">
+          <Menu.Item>
+            <div className="menu-icon" onClick={handleClick}>
+              <i className={Click ? "fa fa-times" : "fa fa-bars"} />
+            </div>
+          </Menu.Item>
+          <Menu.Item name="home" as={NavLink} exact to="/" />
+
+          <Menu.Item name="resume" as={NavLink} to="/resume" />
+          <Menu.Item name="projects" as={NavLink} to="/projects" />
           <Menu.Menu position="right">
-            <Menu.Item
-              name="message"
-              active={activeItem === "message"}
-              onClick={handleItemClick}
-            />
+            <Menu.Item name="Contact" as={NavLink} to="/Contact" />
           </Menu.Menu>
         </Menu>
-        {whichButton()}
-      </div>
-    </>
+      </Segment>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/Contact" component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 
