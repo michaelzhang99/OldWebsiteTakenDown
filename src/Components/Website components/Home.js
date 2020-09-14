@@ -32,17 +32,26 @@ function Home() {
           <a
             href="https://www.linkedin.com/in/michael-zhang-a76117184/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
           {/* Github*/}
 
-          <a href="http://google.com" target="_blank">
+          <a
+            href="https://github.com/michaelzhang99"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
           {/* Gmail*/}
 
-          <a href="mailto:michael.zhang@nyu.edu" target="_blank">
+          <a
+            href="mailto:michael.zhang@nyu.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-envelope" aria-hidden="true" />
           </a>
         </div>

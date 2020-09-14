@@ -105,6 +105,7 @@ function Contact() {
                   <a
                     href="https://www.messenger.com/t/michaelzhang1219"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     My messenger
                   </a>
