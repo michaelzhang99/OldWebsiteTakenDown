@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MichaelZhang/static/css/main.514e8747.chunk.css",
-    "main.js": "/MichaelZhang/static/js/main.7f65a266.chunk.js",
-    "main.js.map": "/MichaelZhang/static/js/main.7f65a266.chunk.js.map",
+    "main.js": "/MichaelZhang/static/js/main.a6376036.chunk.js",
+    "main.js.map": "/MichaelZhang/static/js/main.a6376036.chunk.js.map",
     "runtime-main.js": "/MichaelZhang/static/js/runtime-main.4dd4c97f.js",
     "runtime-main.js.map": "/MichaelZhang/static/js/runtime-main.4dd4c97f.js.map",
     "static/js/2.2e332a74.chunk.js": "/MichaelZhang/static/js/2.2e332a74.chunk.js",
     "static/js/2.2e332a74.chunk.js.map": "/MichaelZhang/static/js/2.2e332a74.chunk.js.map",
     "index.html": "/MichaelZhang/index.html",
-    "precache-manifest.abcb07729f5480cfee7e57701e0ecebd.js": "/MichaelZhang/precache-manifest.abcb07729f5480cfee7e57701e0ecebd.js",
+    "precache-manifest.678282299ba4641754378def2bb574bb.js": "/MichaelZhang/precache-manifest.678282299ba4641754378def2bb574bb.js",
     "service-worker.js": "/MichaelZhang/service-worker.js",
     "static/css/main.514e8747.chunk.css.map": "/MichaelZhang/static/css/main.514e8747.chunk.css.map",
     "static/js/2.2e332a74.chunk.js.LICENSE.txt": "/MichaelZhang/static/js/2.2e332a74.chunk.js.LICENSE.txt",
@@ -59,6 +59,6 @@
     "static/js/runtime-main.4dd4c97f.js",
     "static/js/2.2e332a74.chunk.js",
     "static/css/main.514e8747.chunk.css",
-    "static/js/main.7f65a266.chunk.js"
+    "static/js/main.a6376036.chunk.js"
   ]
 }
