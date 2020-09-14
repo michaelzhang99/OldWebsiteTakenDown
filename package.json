@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://michaelzhang99.github.io/michaelzhang99.github.io",
+  "homepage": "michael-zhang.me",
   "dependencies": {
     "@progress/kendo-drawing": "^1.8.1",
     "@progress/kendo-react-pdf": "^3.15.0",
