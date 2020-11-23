@@ -254,7 +254,7 @@ code {
 }
 
 .REVITNYU {
-  height: 660vh;
+  height: 670vh;
   background-color: black;
 }
 
@@ -263,48 +263,18 @@ code {
 }
 
 .Sanjude {
-  height: 400vh;
-  background: #fdfc47; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #24fe41,
-    #fdfc47
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #24fe41,
-    #fdfc47
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 660vh;
+  background-color: blanchedalmond;
 }
 
 .CADschool {
-  height: 100vh;
-  background: #ffafbd; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffc3a0,
-    #ffafbd
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffc3a0,
-    #ffafbd
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 520vh;
+  background-color: darkgrey;
 }
 
 .CADCARZ {
-  height: 100vh;
-  background: #bc4e9c; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f80759,
-    #bc4e9c
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f80759,
-    #bc4e9c
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 730vh;
+  background-color: #ce93d8;
 }
 
 .REACTproj {

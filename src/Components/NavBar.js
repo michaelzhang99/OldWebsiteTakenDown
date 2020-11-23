@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import { Menu, Segment } from "semantic-ui-react";
-import {
-  Switch,
-  Route,
-  BrowserRouter as Router,
-  NavLink,
-} from "react-router-dom";
+import { Switch, Route, HashRouter as Router, NavLink } from "react-router-dom";
 import Home from "./Website components/Home";
 import Resume from "./Website components/Resume";
 import Projects from "./Website components/Projects";
@@ -15,7 +10,7 @@ function NavBar() {
   const [Click, setClick] = useState(false);
   const handleClick = () => setClick(!Click);
   return (
-    <Router>
+    <Router basename="/">
       <Segment inverted>
         <Menu inverted size="huge">
           <Menu.Item>

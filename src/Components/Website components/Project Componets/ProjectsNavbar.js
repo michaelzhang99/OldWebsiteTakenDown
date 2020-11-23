@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function ProjectNavbar() {
   return (
-    <div className="ProjLIST">
+    <div className="ProjLIST" style={{ padding: "0.85em", height: "auto" }}>
       <Link
         activeClass="active"
         to="Home"
@@ -11,7 +11,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={-90}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "10px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "10px",
+          cursor: "pointer",
+        }}
       >
         Home
       </Link>
@@ -22,7 +27,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={-30}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "15px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "15px",
+          cursor: "pointer",
+        }}
       >
         NYU Renovation
       </Link>
@@ -33,7 +43,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={0}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "15px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "15px",
+          cursor: "pointer",
+        }}
       >
         881 San Jude
       </Link>
@@ -44,7 +59,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={0}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "15px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "15px",
+          cursor: "pointer",
+        }}
       >
         CAD Parts
       </Link>
@@ -55,7 +75,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={0}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "15px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "15px",
+          cursor: "pointer",
+        }}
       >
         Reverse Engineering
       </Link>
@@ -66,7 +91,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={0}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "15px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "15px",
+          cursor: "pointer",
+        }}
       >
         React Website
       </Link>
@@ -77,7 +107,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={0}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "15px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "15px",
+          cursor: "pointer",
+        }}
       >
         Electric Bike
       </Link>
@@ -88,7 +123,12 @@ function ProjectNavbar() {
         smooth={true}
         offset={0}
         duration={500}
-        style={{ color: "white", paddingRight: "15px", paddingLeft: "15px" }}
+        style={{
+          color: "white",
+          paddingRight: "15px",
+          paddingLeft: "15px",
+          cursor: "pointer",
+        }}
       >
         Mothersday Cards
       </Link>

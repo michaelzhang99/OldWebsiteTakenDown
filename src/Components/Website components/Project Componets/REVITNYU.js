@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import { Grid, Image, Button, Icon } from "semantic-ui-react";
+import React from "react";
+import { Image, Button, Icon } from "semantic-ui-react";
 import floor1 from "../../Photos/floor1.png";
 import Floor2 from "../../Photos/Floor2.png";
 import Floor3 from "../../Photos/Floor3.png";
@@ -21,16 +21,12 @@ import F1Cafeteria from "../../Photos/images/F1Cafeteria.png";
 import F1SkyView from "../../Photos/images/F1SkyView.png";
 import Floor1View from "../../Photos/images/Floor1View.png";
 import Floor121pic from "../../Photos/images/Floor121pic.png";
-import image19 from "../../Photos/images/image19.png";
 import SecurityF1 from "../../Photos/images/SecurityF1.png";
 import Shower from "../../Photos/images/Shower.png";
 import Sideview from "../../Photos/images/Sideview.png";
 import SkydeckTopView from "../../Photos/images/SkydeckTopView.png";
-import Tennis from "../../Photos/images/Tennis.png";
-import TopFloor from "../../Photos/images/TopFloor.png";
 import WholeView from "../../Photos/images/WholeView.png";
 import Lockeroom from "../../Photos/images/Lockeroom.png";
-import SolarView from "../../Photos/images/SolarView.png";
 import TennisView from "../../Photos/images/TennisView.png";
 import DormFP from "../../Photos/images/DormFP.png";
 import Commission from "../../Photos/images/Commission.pdf";
@@ -38,27 +34,8 @@ import Commission from "../../Photos/images/Commission.pdf";
 import { useSpring, animated } from "react-spring";
 import ReactPlayer from "react-player";
 import Carousel from "nuka-carousel";
-import ResizeImage from "react-resize-image";
-
-// import Aos from "aos";
-// import "aos/dist/aos.css";
-// import { useIntersection } from "react-use";
-// import VisibilitySensor from "react-visibility-sensor"
 
 function REVITNYU() {
-  // console.log('Element is now %s', isVisible ? 'visible' : 'hidden');
-  // }
-
-  //
-  //
-
-  //   const sectionRef = useRef(null);
-  //   const intersection = useIntersection(sectionRef, {
-  //     root: null,
-  //     rootMargin: "0px",
-  //     threshold: 1,
-  //   });
-
   const props = useSpring({
     config: { duration: 2000 },
     opacity: 1,
@@ -71,15 +48,6 @@ function REVITNYU() {
     from: { opacity: 0 },
     delay: 1500,
   });
-  const prop3 = useSpring({
-    config: { duration: 1000 },
-    opacity: 0,
-    from: { opacity: 1 },
-    delay: 500,
-  });
-
-  //   intersection && intersection.intersectionRatio < 1
-  //   props3
 
   return (
     <div
@@ -95,7 +63,7 @@ function REVITNYU() {
             style={{
               fontSize: "100px",
               position: "absolute",
-              top: 1800,
+              top: 2250,
               left: 800,
               right: 0,
               bottom: 0,
@@ -111,7 +79,7 @@ function REVITNYU() {
             style={{
               fontSize: "60px",
               position: "absolute",
-              top: 1900,
+              top: 2350,
               left: 900,
               right: 0,
               bottom: 0,
@@ -130,7 +98,7 @@ function REVITNYU() {
             fontFamily: "Merriweather, serif",
           }}
         >
-          <div style={{ top: 2450, position: "absolute", bottom: 0 }}>
+          <div style={{ top: 2850, position: "absolute", bottom: 0 }}>
             <div
               style={{
                 color: "white",
@@ -219,27 +187,59 @@ function REVITNYU() {
 
             <div style={{ paddingTop: "5%", paddingBottom: "5%" }}>
               <Carousel>
-                <img className="ImgResize" src={WholeView} />
-                <img className="ImgResize" src={SkyDeckView} />
-                <img className="ImgResize" src={SkyGarden} />
-                <img className="ImgResize" src={Classrooms} />
-                <img className="ImgResize" src={Dorm} />
-                <img className="ImgResize" src={DormBrightView} />
-                <img className="ImgResize" src={DormCommonRoom} />
-                <img className="ImgResize" src={Auditorium} />
-                <img className="ImgResize" src={DormView} />
-                <img className="ImgResize" src={DormSkyView} />
-                <img className="ImgResize" src={F1BrightView} />
-                <img className="ImgResize" src={F1Cafeteria} />
-                <img className="ImgResize" src={F1SkyView} />
-                <img className="ImgResize" src={Floor1View} />
-                <img className="ImgResize" src={Floor121pic} />
-                <img className="ImgResize" src={SecurityF1} />
-                <img className="ImgResize" src={Shower} />
-                <img className="ImgResize" src={Sideview} />
-                <img className="ImgResize" src={SkydeckTopView} />
-                <img className="ImgResize" src={Lockeroom} />
-                <img className="ImgResize" src={TennisView} />
+                <img className="ImgResize" src={WholeView} alt="WholeView" />
+                <img
+                  className="ImgResize"
+                  src={SkyDeckView}
+                  alt="SkyDeckView"
+                />
+                <img className="ImgResize" src={SkyGarden} alt="SkyGarden" />
+                <img className="ImgResize" src={Classrooms} alt="Classrooms" />
+                <img className="ImgResize" src={Dorm} alt="Dorm" />
+                <img
+                  className="ImgResize"
+                  src={DormBrightView}
+                  alt="DormBrightView"
+                />
+                <img
+                  className="ImgResize"
+                  src={DormCommonRoom}
+                  alt="DormCommonRoom"
+                />
+                <img className="ImgResize" src={Auditorium} alt="Auditorium" />
+                <img className="ImgResize" src={DormView} alt="DormView" />
+                <img
+                  className="ImgResize"
+                  src={DormSkyView}
+                  alt="DormSkyView"
+                />
+                <img
+                  className="ImgResize"
+                  src={F1BrightView}
+                  alt="F1BrightView"
+                />
+                <img
+                  className="ImgResize"
+                  src={F1Cafeteria}
+                  alt="F1Cafeteria"
+                />
+                <img className="ImgResize" src={F1SkyView} alt="F1SkyView" />
+                <img className="ImgResize" src={Floor1View} alt="Floor1View" />
+                <img
+                  className="ImgResize"
+                  src={Floor121pic}
+                  alt="Floor121pic"
+                />
+                <img className="ImgResize" src={SecurityF1} alt="SecurityF1" />
+                <img className="ImgResize" src={Shower} alt="Shower" />
+                <img className="ImgResize" src={Sideview} alt="Sideview" />
+                <img
+                  className="ImgResize"
+                  src={SkydeckTopView}
+                  alt="SkydeckTopView"
+                />
+                <img className="ImgResize" src={Lockeroom} alt="Lockeroom" />
+                <img className="ImgResize" src={TennisView} alt="TennisView" />
               </Carousel>
             </div>
             <div>
