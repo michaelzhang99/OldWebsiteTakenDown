@@ -23,7 +23,7 @@ function NavBar() {
           <Menu.Item name="resume" as={NavLink} to="/resume" />
           <Menu.Item name="projects" as={NavLink} to="/projects" />
           <Menu.Menu position="right">
-            <Menu.Item name="Contact" as={NavLink} to="/Contact" />
+            <Menu.Item name="contact" as={NavLink} to="/contact" />
           </Menu.Menu>
         </Menu>
       </Segment>
@@ -31,7 +31,7 @@ function NavBar() {
         <Route exact path="/" component={Home} />
         <Route path="/resume" component={Resume} />
         <Route path="/projects" component={Projects} />
-        <Route path="/Contact" component={Contact} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </Router>
   );
