@@ -98,7 +98,7 @@ function REVITNYU() {
             fontFamily: "Merriweather, serif",
           }}
         >
-          <div style={{ top: 2850, position: "absolute", bottom: 0 }}>
+          <div style={{ top: 2890, position: "absolute", bottom: 0 }}>
             <div
               style={{
                 color: "white",
@@ -111,7 +111,7 @@ function REVITNYU() {
             <p
               style={{
                 paddingTop: "5%",
-                marginLeft: "2%",
+                marginLeft: "0.1%",
                 marginRight: "2%",
                 fontSize: "20px",
                 color: "white",

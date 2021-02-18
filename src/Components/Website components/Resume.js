@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { Grid, Image } from "semantic-ui-react";
+import { Grid, Image, Button, Icon } from "semantic-ui-react";
 import MikeZ from "../MikeZ.png";
 import Education from "../Props/Education";
 import Experience from "../Props/Experience";
 import Experience2 from "../Props/Experience2";
 import Projects from "../Props/Projects";
 import Skills from "../Props/Skills";
+import RRESUME from "../Photos/images/RRESUME.pdf";
 class Resume extends Component {
   render() {
     return (
@@ -54,6 +55,25 @@ class Resume extends Component {
                 width: "50%",
               }}
             />
+            <Button
+              color="violet"
+              size="massive"
+              animated
+              style={{ marginLeft: "18%", marginTop: "3%", color: "#00DBFF" }}
+            >
+              <Button.Content visible>Download Resume</Button.Content>
+              <a
+                style={{ color: "white" }}
+                href={RRESUME}
+                download="RRESUME.pdf"
+              >
+                <Button.Content hidden>
+                  <Icon name="arrow right" />
+                  lets goooooo!
+                  <Icon name="arrow right" />
+                </Button.Content>
+              </a>
+            </Button>
           </Grid.Column>
           <Grid.Column width={11}>
             <cell className="NavBar1">
