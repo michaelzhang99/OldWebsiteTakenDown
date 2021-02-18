@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec2d8c237e476f215662c16b7d312e41",
+    "revision": "e1825eefe1667ff2e41f413710383546",
     "url": "/michaelzhang99.github.io/index.html"
   },
   {
-    "revision": "eb7f5caf101bb2ee868b",
-    "url": "/michaelzhang99.github.io/static/css/main.13e9eed7.chunk.css"
+    "revision": "5545392c10b351a4631b",
+    "url": "/michaelzhang99.github.io/static/css/main.c5f3cf80.chunk.css"
   },
   {
-    "revision": "8f050e0af9fc7a4f476a",
-    "url": "/michaelzhang99.github.io/static/js/2.5cbb1187.chunk.js"
+    "revision": "1a82966b78cfc3c71dfb",
+    "url": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js"
   },
   {
     "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "/michaelzhang99.github.io/static/js/2.5cbb1187.chunk.js.LICENSE.txt"
+    "url": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb7f5caf101bb2ee868b",
-    "url": "/michaelzhang99.github.io/static/js/main.5370b5df.chunk.js"
+    "revision": "5545392c10b351a4631b",
+    "url": "/michaelzhang99.github.io/static/js/main.d4150e9f.chunk.js"
   },
   {
     "revision": "a643b09ce4fc7d9d4957",
@@ -298,6 +298,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "33175aa663732edca881353782da96b6",
     "url": "/michaelzhang99.github.io/static/media/REVITPIC.33175aa6.png"
+  },
+  {
+    "revision": "68d1d6e9c296d9ba83de3dfa21ef6992",
+    "url": "/michaelzhang99.github.io/static/media/RRESUME.68d1d6e9.pdf"
   },
   {
     "revision": "515736cec19d62c1007e0bfaf44e1e29",

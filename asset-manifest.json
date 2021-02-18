@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/michaelzhang99.github.io/static/css/main.13e9eed7.chunk.css",
-    "main.js": "/michaelzhang99.github.io/static/js/main.5370b5df.chunk.js",
-    "main.js.map": "/michaelzhang99.github.io/static/js/main.5370b5df.chunk.js.map",
+    "main.css": "/michaelzhang99.github.io/static/css/main.c5f3cf80.chunk.css",
+    "main.js": "/michaelzhang99.github.io/static/js/main.d4150e9f.chunk.js",
+    "main.js.map": "/michaelzhang99.github.io/static/js/main.d4150e9f.chunk.js.map",
     "runtime-main.js": "/michaelzhang99.github.io/static/js/runtime-main.2302aea1.js",
     "runtime-main.js.map": "/michaelzhang99.github.io/static/js/runtime-main.2302aea1.js.map",
-    "static/js/2.5cbb1187.chunk.js": "/michaelzhang99.github.io/static/js/2.5cbb1187.chunk.js",
-    "static/js/2.5cbb1187.chunk.js.map": "/michaelzhang99.github.io/static/js/2.5cbb1187.chunk.js.map",
+    "static/js/2.901aef80.chunk.js": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js",
+    "static/js/2.901aef80.chunk.js.map": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js.map",
     "index.html": "/michaelzhang99.github.io/index.html",
-    "precache-manifest.74dfc522522d66116ae2cbd9296d2043.js": "/michaelzhang99.github.io/precache-manifest.74dfc522522d66116ae2cbd9296d2043.js",
+    "precache-manifest.c98e3cccbf04c242b6c81d1e6a6c649c.js": "/michaelzhang99.github.io/precache-manifest.c98e3cccbf04c242b6c81d1e6a6c649c.js",
     "service-worker.js": "/michaelzhang99.github.io/service-worker.js",
-    "static/css/main.13e9eed7.chunk.css.map": "/michaelzhang99.github.io/static/css/main.13e9eed7.chunk.css.map",
-    "static/js/2.5cbb1187.chunk.js.LICENSE.txt": "/michaelzhang99.github.io/static/js/2.5cbb1187.chunk.js.LICENSE.txt",
+    "static/css/main.c5f3cf80.chunk.css.map": "/michaelzhang99.github.io/static/css/main.c5f3cf80.chunk.css.map",
+    "static/js/2.901aef80.chunk.js.LICENSE.txt": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js.LICENSE.txt",
     "static/media/Auditorium.png": "/michaelzhang99.github.io/static/media/Auditorium.95c242b8.png",
     "static/media/BIKE.jpg": "/michaelzhang99.github.io/static/media/BIKE.f09705bc.jpg",
     "static/media/CAD1.PNG": "/michaelzhang99.github.io/static/media/CAD1.a53b0efe.PNG",
@@ -81,6 +81,7 @@
     "static/media/Plants.xlsx": "/michaelzhang99.github.io/static/media/Plants.70e2880e.xlsx",
     "static/media/REACT.png": "/michaelzhang99.github.io/static/media/REACT.239a06df.png",
     "static/media/REVITPIC.png": "/michaelzhang99.github.io/static/media/REVITPIC.33175aa6.png",
+    "static/media/RRESUME.pdf": "/michaelzhang99.github.io/static/media/RRESUME.68d1d6e9.pdf",
     "static/media/Sanjude1.jpg": "/michaelzhang99.github.io/static/media/Sanjude1.515736ce.jpg",
     "static/media/Sanjude2.jpg": "/michaelzhang99.github.io/static/media/Sanjude2.6cec4229.jpg",
     "static/media/Sanjude3.jpg": "/michaelzhang99.github.io/static/media/Sanjude3.bfe70473.jpg",
@@ -102,8 +103,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2302aea1.js",
-    "static/js/2.5cbb1187.chunk.js",
-    "static/css/main.13e9eed7.chunk.css",
-    "static/js/main.5370b5df.chunk.js"
+    "static/js/2.901aef80.chunk.js",
+    "static/css/main.c5f3cf80.chunk.css",
+    "static/js/main.d4150e9f.chunk.js"
   ]
 }
