@@ -6,7 +6,7 @@ import Experience from "../Props/Experience";
 import Experience2 from "../Props/Experience2";
 import Projects from "../Props/Projects";
 import Skills from "../Props/Skills";
-import RRESUME from "../Photos/images/RRESUME.pdf";
+import MichaelZhangsResume from "../Photos/images/RESUME.pdf";
 class Resume extends Component {
   render() {
     return (
@@ -64,12 +64,12 @@ class Resume extends Component {
               <Button.Content visible>Download Resume</Button.Content>
               <a
                 style={{ color: "white" }}
-                href={RRESUME}
-                download="RRESUME.pdf"
+                href={MichaelZhangsResume}
+                download="RESUME.pdf"
               >
                 <Button.Content hidden>
                   <Icon name="arrow right" />
-                  lets goooooo!
+                  Download
                   <Icon name="arrow right" />
                 </Button.Content>
               </a>
@@ -84,9 +84,9 @@ class Resume extends Component {
                   endYear={"June 2022"}
                   location={"Brooklyn, New York City"}
                   uniName={"New York University-Tandon"}
-                  GPA={3.93}
+                  GPA={3.89}
                   courseWork={
-                    "Statics,Physics(electrical, magnetic, kinematics, optics), AutoCAD, Autodesk Inventor, Revit, Fusion360, Material Science, MatLabs, Algebra-Calculus III, Linear Algebra"
+                    "Statics, Physics (electrical, magnetism, kinematics, optics, waves), Thermo and Fluid dynamics, Dynamics, Statistics, Data analysis, Mechanics of Materials, Material Science, MATLAB, Algebra-Calculus III, Linear Algebra, Finite Element Design, Machine Design"
                   }
                 />
                 <hr style={{ borderTop: "3px solid #e2947" }} />
@@ -98,13 +98,13 @@ class Resume extends Component {
                   Employer={"Gunn Robotics"}
                   Position={"Business Lead, Mechanic, CAD Team"}
                   Description1={
-                    "Transformed Robot maneuverability from unidirectional to 360 degree swerve with swerve drivetrain and gearbox"
-                  }
-                  Description2={
                     "Received Chairman’s and Woodie Flowers awards for excellence in Business Plan analysis and presentation."
                   }
+                  Description2={
+                    "• Lead Lathe Machinist, fine tuned and turned ~80% of circular machine parts out of 200 parts to meet assembly deadline."
+                  }
                   Description3={
-                    "Brainstormed and prototyped gear pickup mechanisms in 2017’s Arizona Regional 1st pace robot."
+                    "Prototyped gear pickup mechanisms in 2017’s Arizona Regional 1st place robot."
                   }
                 />
                 <Experience2
@@ -149,13 +149,22 @@ class Resume extends Component {
                     "Researched and learned about basic electricity  AC DC currents, mapped and understood bicycle components mechanisms, interviewed bike technicians and joined forums. Designed and assembled an electrical bicycle from scratch."
                   }
                 />
+                <Projects
+                  startYear={"July 2020"}
+                  endYear={"Current"}
+                  location={"Palo Alto, CA"}
+                  Project={"Portfolio Website"}
+                  Description={
+                    "Problem solved, networked to software engineers, and self-taught React to create personal website, michael-zhang.me. With 1000+ lines of code and includes slideshows and animated titles on project pages, full resume replica, and landing page. Over 300+ hours of problem solving and learning."
+                  }
+                />
                 <hr style={{ borderTop: "3px solid #e2947" }} />
                 <h1 style={{ fontSize: "40px" }}>Skills</h1>
                 <Skills Skills={"Solid Works"} percent={80} />{" "}
                 <Skills Skills={"Autodesk Inventor"} percent={70} />
                 <Skills Skills={"Autodesk Revit"} percent={60} />
                 <Skills Skills={"Fusion 360"} percent={100} />
-                <Skills Skills={"Ract"} percent={40} />
+                <Skills Skills={"React"} percent={40} />
                 <Skills Skills={"Python"} percent={30} />
                 <Skills Skills={"Matlab"} percent={50} />
                 <Skills Skills={"Metal Lathe"} percent={70} />
