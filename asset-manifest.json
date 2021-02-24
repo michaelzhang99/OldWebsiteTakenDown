@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/michaelzhang99.github.io/static/css/main.d84de405.chunk.css",
+    "main.css": "/michaelzhang99.github.io/static/css/main.d225a465.chunk.css",
     "main.js": "/michaelzhang99.github.io/static/js/main.dc62cf88.chunk.js",
     "main.js.map": "/michaelzhang99.github.io/static/js/main.dc62cf88.chunk.js.map",
     "runtime-main.js": "/michaelzhang99.github.io/static/js/runtime-main.2302aea1.js",
@@ -8,9 +8,9 @@
     "static/js/2.901aef80.chunk.js": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js",
     "static/js/2.901aef80.chunk.js.map": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js.map",
     "index.html": "/michaelzhang99.github.io/index.html",
-    "precache-manifest.d3de3c41822ebe16913aa446152e58d7.js": "/michaelzhang99.github.io/precache-manifest.d3de3c41822ebe16913aa446152e58d7.js",
+    "precache-manifest.9075535b451268056f73570f778f5d27.js": "/michaelzhang99.github.io/precache-manifest.9075535b451268056f73570f778f5d27.js",
     "service-worker.js": "/michaelzhang99.github.io/service-worker.js",
-    "static/css/main.d84de405.chunk.css.map": "/michaelzhang99.github.io/static/css/main.d84de405.chunk.css.map",
+    "static/css/main.d225a465.chunk.css.map": "/michaelzhang99.github.io/static/css/main.d225a465.chunk.css.map",
     "static/js/2.901aef80.chunk.js.LICENSE.txt": "/michaelzhang99.github.io/static/js/2.901aef80.chunk.js.LICENSE.txt",
     "static/media/Auditorium.png": "/michaelzhang99.github.io/static/media/Auditorium.95c242b8.png",
     "static/media/BIKE.jpg": "/michaelzhang99.github.io/static/media/BIKE.f09705bc.jpg",
@@ -104,7 +104,7 @@
   "entrypoints": [
     "static/js/runtime-main.2302aea1.js",
     "static/js/2.901aef80.chunk.js",
-    "static/css/main.d84de405.chunk.css",
+    "static/css/main.d225a465.chunk.css",
     "static/js/main.dc62cf88.chunk.js"
   ]
 }
