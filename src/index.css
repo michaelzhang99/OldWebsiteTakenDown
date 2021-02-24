@@ -20,7 +20,7 @@ code {
     monospace;
 }
 .h1Contact {
-  /* font-family: "Anton", sans-serif; */
+  font-family: "Anton", sans-serif;
   font-size: 40px;
   padding-top: 0.6em;
   padding-bottom: 0.15em;
@@ -38,7 +38,6 @@ code {
 .contactGridColor {
   margin-left: 15%;
   margin-top: 6%;
-  border-radius: 10px;
   align-items: center;
   text-align: center;
   justify-content: center;
